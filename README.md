@@ -1,40 +1,40 @@
 # 🐾 SystemJavaMVC
 
-Um sistema simples desenvolvido em Java utilizando o padrão arquitetural **MVC (Model-View-Controller)**, que permite **cadastrar e gerenciar animais**.
+A simple system developed in Java using the **MVC (Model-View-Controller)** architectural pattern that allows you to **register and manage animals**.
 
-## 📁 Estrutura do Projeto
+## 📁 Project Structure
 
-O projeto segue a arquitetura MVC, com os pacotes divididos da seguinte forma:
+The project follows the MVC architecture, with packages organized as follows:
 
 ```plaintext
 com.company.system  
 │  
-├── controller # Lógica de controle (ex: AnimalController)  
-├── model # Representação dos dados (ex: Animal)  
-├── service # Lógica de negócio (ex: AnimalService)  
-├── view # Interface com o usuário (ex: AnimalView)  
-└── Main.java # Ponto de entrada da aplicação
+├── controller # Control logic (e.g., AnimalController)  
+├── model      # Data representation (e.g., Animal)  
+├── service    # Business logic (e.g., AnimalService)  
+├── view       # User interface (e.g., AnimalView)  
+└── Main.java  # Application entry point  
 ```
 
-## 🚀 Funcionalidades
+## 🚀 Features
 
-- ✅ Cadastro de animais  
-- ✅ Visualização de dados dos animais  
-- ✅ Separação de responsabilidades com MVC  
-- 🔄 Facilidade para futuras expansões (ex: persistência com banco de dados, filtros, etc)
+- ✅ Animal registration  
+- ✅ Display animal data  
+- ✅ Clear separation of concerns using MVC  
+- 🔄 Easy to expand (e.g., database integration, filters, etc.)
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
-- Java (JDK 17+ recomendado)  
-- IDE: IntelliJ IDEA (ou qualquer IDE Java)
+- Java (JDK 17+ recommended)  
+- IDE: IntelliJ IDEA (or any Java IDE)
 
-## ▶️ Como Executar
+## ▶️ How to Run
 
-1. Clone o repositório:  
+1. Clone the repository:  
 ```bash
-git clone https://github.com/seu-usuario/SystemJavaMVC.git  
+git clone https://github.com/your-username/SystemJavaMVC.git  
 ```
 
-2. Abra o projeto em sua IDE.
+2. Open the project in your IDE.
 
-3. Execute o arquivo `Main.java`.
+3. Run the `Main.java` file.
