@@ -25,7 +25,7 @@ public class Animal {
         this.year = year;
     }
 
-    protected void emitSound(){
+    public void emitSound(){
         System.out.println("Animal is making a sound");
     }
 }

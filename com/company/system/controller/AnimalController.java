@@ -13,11 +13,11 @@ public class AnimalController {
     }
 
     public void setAnimalName(String name){
-        model.name = name;
+        model.setName(name);
     }
 
     public void setAnimalYear(int year){
-        model.year = year;
+        model.setYear(year);
     }
 
     public void viewDetails(){

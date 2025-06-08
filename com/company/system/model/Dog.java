@@ -6,7 +6,7 @@ public class Dog extends Animal{
     }
 
     @Override
-    protected void emitSound(){
+    public void emitSound(){
         System.out.println("woof, woof");
     }
 }
