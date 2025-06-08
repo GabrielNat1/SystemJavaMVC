@@ -22,5 +22,14 @@ public class Main {
         System.out.println("== Cat ==");
         catController.viewDetails();
         catController.showSound();
+
+        System.out.println();
+
+        AnimalService service = new AnimalService();
+        if(service.isOlderThan(dog, cat)){
+            System.out.println(dog.getName() + " is older than " + cat.getName());
+        } else {
+            System.out.println(dog.getName() + " is NOT older than " + cat.getName());
+        }
     }
 }
