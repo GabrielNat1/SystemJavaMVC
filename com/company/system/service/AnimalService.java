@@ -15,4 +15,11 @@ public class AnimalService {
     public boolean isOlderThan(Animal animal1, Animal animal2){
         return animal1.getYear() < animal2.getYear();
     }
+
+    public void addAnimal(Animal animal) {
+        animals.add(animal);
+    }
+
+    public List<Animal> getAnimals() {
+        return animals;
 }
