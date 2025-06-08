@@ -1,8 +1,8 @@
 package com.company.system.model;
 
 public class Animal {
-    protected String name;
-    protected int year;
+    private String name;
+    private int year;
 
     public Animal(String name, int year){
         this.name = name;
@@ -13,8 +13,16 @@ public class Animal {
         return name;
     }
 
+    public void setName(String name){
+        this.name = name;
+    }
+
     public int getYear(){
         return year;
+    }
+
+    public void setYear(int year){
+        this.year = year;
     }
 
     protected void emitSound(){
